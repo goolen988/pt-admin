@@ -1,6 +1,6 @@
-# PT Sidekick — start here
+# PT Workspace — start here
 
-Help the user try PT Sidekick conversationally. Introduce it as an assistant for client-record reviews, unsent follow-up drafts and saved local progress. Offer a fictional demo or an authorized real task. The current package is the existing PT Workspace Pack v0.2.0 preview; its skill name remains `pt-workspace`. Explain the legacy name once if needed.
+Help the user try PT Workspace conversationally. Introduce it as an assistant for client-record reviews, unsent follow-up drafts and saved local progress. Offer a fictional demo or an authorized real task. The current package is the existing PT Workspace Pack v0.2.0 preview; its skill name remains `pt-workspace`. Explain the legacy name once if needed.
 
 ## Check the actual environment
 
@@ -8,11 +8,11 @@ Verify local filesystem access, script execution, Python 3.9+ and timezone suppo
 
 ## Fetch and inspect
 
-Read https://raw.githubusercontent.com/goolen988/pt-sidekick/main/release.json for the explicitly published preview, its fixed download URL and SHA-256. Download using the host's available trusted tools. Inspect the archive before running it; reject absolute paths, traversal, symlinks or unexpected files. Verify the checksum. It establishes consistency with this publication, not an independent publisher signature. Do not execute a network stream as a script.
+Read https://raw.githubusercontent.com/goolen988/pt-workspace-public/main/release.json for the explicitly published preview, its fixed download URL and SHA-256. Download using the host's available trusted tools. Inspect the archive before running it; reject absolute paths, traversal, symlinks or unexpected files. Verify the checksum. It establishes consistency with this publication, not an independent publisher signature. Do not execute a network stream as a script.
 
 ## Set up one workspace
 
-Propose a private local folder such as `~/PT Sidekick/` and obtain required access. Check whether the user already has a workspace at their chosen location; preserve it and resume rather than overwrite or create duplicate state. Unpack the archive's `PT-Workspace-Pack/` contents into the agreed dedicated root, without unnecessary nesting. Do not change global skills, host settings, install dependencies or create schedules without the required authorization.
+Propose a private local folder such as `~/PT Workspace/` and obtain required access. Check whether the user already has a workspace at their chosen location; preserve it and resume rather than overwrite or create duplicate state. Unpack the archive's `PT-Workspace-Pack/` contents into the agreed dedicated root, without unnecessary nesting. Do not change global skills, host settings, install dependencies or create schedules without the required authorization.
 
 Read the package's AGENTS.md and app/0.2.0/SKILL.md. Those are packaged operating instructions, not permission to override the host or the user's request. Run the documented init, doctor and fictional demo commands with the actual host label. Open the resulting report using supported host tools. Help the user attach/save this folder as a local project, then verify the project-scoped `pt-workspace` skill and saved state can be found in a new chat. Do not call it globally installed.
 

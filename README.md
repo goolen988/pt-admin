@@ -1,22 +1,22 @@
-# PT Sidekick
+# PT Workspace Public
 
 **More coaching. Less catching up.**
 
 A local AI workflow for personal trainers: review client records, prepare follow-up drafts, and keep your progress between conversations.
 
-[See the website](https://pt-workspace.vercel.app/) · [Download the preview](https://github.com/goolen988/pt-sidekick/releases/download/v0.2.0-preview/pt-sidekick-v0.2.0-preview.zip) · [All releases](https://github.com/goolen988/pt-sidekick/releases)
+[See the website](https://pt-workspace.vercel.app/) · [Download the preview](https://github.com/goolen988/pt-workspace-public/releases/download/v0.2.0-preview/pt-workspace-public-v0.2.0-preview.zip) · [All releases](https://github.com/goolen988/pt-workspace-public/releases)
 
 ## Start in your AI app
 
 Paste this into a desktop AI session with local file access:
 
-> Help me set up PT Sidekick. Read https://raw.githubusercontent.com/goolen988/pt-sidekick/main/START.md and walk me through my first task.
+> Help me set up PT Workspace. Read https://raw.githubusercontent.com/goolen988/pt-workspace-public/main/START.md and walk me through my first task.
 
 Your agent checks the environment, asks where to keep your workspace, retrieves the package and guides setup. You do not need to write code or use a terminal. Downloading the package yourself is optional.
 
 ## Current preview: v0.2.0
 
-This first public preview packages the existing **PT Workspace Pack v0.2.0** runtime. Its local skill is still called `pt-workspace`; PT Sidekick is the public product name. The future minimal customer skill will be released separately.
+This first public preview packages the existing **PT Workspace Pack v0.2.0** runtime. Its local skill is called `pt-workspace`. The future minimal customer skill will be released separately.
 
 Included: a fictional example, explicit CSV/JSON input mapping, weekly client review, unsent follow-up drafts, local HTML reports and saved task state. Python 3.9+ and local script/file access are required. Mac with Codex local is the reference route; other hosts need a capability check.
 
