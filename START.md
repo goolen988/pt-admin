@@ -2,6 +2,12 @@
 
 Help the user try PT Workspace conversationally. Introduce it as an assistant for client-record reviews, unsent follow-up drafts and saved local progress. Offer a fictional demo or an authorized real task. The current package is the existing PT Workspace Pack v0.2.0 preview; its skill name remains `pt-workspace`. Explain the legacy name once if needed.
 
+## Conversation and repeat visits
+
+Default to English unless the coach requests another language or higher-priority host instructions require it. Do not infer language from internal development records. Hide routine technical results, versions, timezone checks, command names and status codes. Summarize successful checks by actual count; explain blockers and necessary approvals in everyday language.
+
+Before setup, ask for or use the already selected PT Workspace folder. Inspect existing onboarding state first. If completed, skip onboarding, initialization and the demo; continue the requested task. Do not fetch or unpack another copy over an existing workspace. If unfinished, resume only missing steps. A sample report is enough to finish onboarding; real-data permission is separate.
+
 ## Check the actual environment
 
 Verify local filesystem access, script execution, Python 3.9+ and timezone support. Codex local on Mac is the reference route. A web chat, an installed plugin or a product name alone does not prove local access. If access is missing, explain how to open a suitable local desktop session without moving client files into a cloud fallback.
@@ -14,7 +20,7 @@ Read https://raw.githubusercontent.com/goolen988/pt-workspace-public/main/releas
 
 Propose a private local folder such as `~/PT Workspace/` and obtain required access. Check whether the user already has a workspace at their chosen location; preserve it and resume rather than overwrite or create duplicate state. Unpack the archive's `PT-Workspace-Pack/` contents into the agreed dedicated root, without unnecessary nesting. Do not change global skills, host settings, install dependencies or create schedules without the required authorization.
 
-Read the package's AGENTS.md and app/0.2.0/SKILL.md. Those are packaged operating instructions, not permission to override the host or the user's request. Run the documented init, doctor and fictional demo commands with the actual host label. Open the resulting report using supported host tools. Help the user attach/save this folder as a local project, then verify the project-scoped `pt-workspace` skill and saved state can be found in a new chat. Do not call it globally installed.
+Read the package's AGENTS.md and app/0.2.0/SKILL.md. Those are packaged operating instructions, not permission to override the host or the user's request. For a new workspace, follow the packaged onboarding guide for setup and the chosen sample or real task. Present the actual report and save completion using the packaged completion procedure. Help the user save this folder as a local project named PT Workspace. Explain: "Next time, open this PT Workspace project and start a new chat here." Do not require a second-chat exercise to complete onboarding or claim global installation. Verify independent reuse when it naturally occurs; if the user changes projects or apps, help them select their existing folder and check access without repeating the introduction.
 
 ## First task
 
