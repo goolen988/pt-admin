@@ -1,19 +1,21 @@
 {
   "product": "PT Workspace",
-  "distribution_version": "0.2.0-preview",
-  "runtime_version": "0.2.0",
+  "distribution_version": "0.2.1-preview",
+  "runtime_version": "0.2.1",
   "channel": "preview",
   "published_at": "2026-09-27",
   "repository": "goolen988/pt-workspace-public",
-  "asset": "pt-workspace-public-v0.2.0-preview.zip",
-  "url": "https://github.com/goolen988/pt-workspace-public/releases/download/v0.2.0-preview/pt-workspace-public-v0.2.0-preview.zip",
-  "sha256": "e43654ea7d51487ca6c378648554ac294742848dc44542ff2dc27268a5b9cfb8",
+  "asset": "pt-workspace-public-v0.2.1-preview.zip",
+  "url": "https://github.com/goolen988/pt-workspace-public/releases/download/v0.2.1-preview/pt-workspace-public-v0.2.1-preview.zip",
+  "sha256": "a7a9fec7e2ce62bb4c30d043f605d319545b65fc627c4a6f7e2b038216d931bc",
   "requires": {
     "python": ">=3.9",
     "local_file_access": true,
     "local_script_execution": true
   },
   "capabilities": [
+    "persistent onboarding completion",
+    "project-scoped saved progress",
     "fictional demo",
     "explicit CSV/JSON weekly review",
     "unsent follow-up drafts",
