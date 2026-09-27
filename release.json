@@ -1,0 +1,29 @@
+{
+  "product": "PT Sidekick",
+  "distribution_version": "0.2.0-preview",
+  "runtime_version": "0.2.0",
+  "channel": "preview",
+  "published_at": "2026-09-27",
+  "repository": "goolen988/pt-sidekick",
+  "asset": "pt-sidekick-v0.2.0-preview.zip",
+  "url": "https://github.com/goolen988/pt-sidekick/releases/download/v0.2.0-preview/pt-sidekick-v0.2.0-preview.zip",
+  "sha256": "e43654ea7d51487ca6c378648554ac294742848dc44542ff2dc27268a5b9cfb8",
+  "requires": {
+    "python": ">=3.9",
+    "local_file_access": true,
+    "local_script_execution": true
+  },
+  "capabilities": [
+    "fictional demo",
+    "explicit CSV/JSON weekly review",
+    "unsent follow-up drafts",
+    "local reports and state"
+  ],
+  "not_yet_available": [
+    "Kahunas Computer Use adapter",
+    "training or nutrition plan analysis",
+    "public-channel in-app updater"
+  ],
+  "legacy_skill_name": "pt-workspace",
+  "data_policy": "No customer records, credentials or local runtime state are included."
+}
