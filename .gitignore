@@ -5,3 +5,8 @@
 .env*
 workspace/
 .pt-runtime/
+.local/
+__pycache__/
+.pytest_cache/
+.build/
+.validation/

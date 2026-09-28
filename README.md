@@ -1,16 +1,18 @@
-# PT Workspace Public
+# PT Admin
+
+PT Admin is the administrative skill set within **PT Workspace**. PT Video Editing (including PT Connect) is maintained in its own repository. Existing 0.2.x archives retain their historical folder and skill names for compatibility.
 
 **More coaching. Less catching up.**
 
 A local AI workflow for personal trainers: review client records, prepare follow-up drafts, and keep your progress between conversations.
 
-[See the website](https://pt-workspace.vercel.app/) · [Download the preview](https://github.com/goolen988/pt-workspace-public/releases/download/v0.2.1-preview/pt-workspace-public-v0.2.1-preview.zip) · [All releases](https://github.com/goolen988/pt-workspace-public/releases)
+[See the website](https://pt-workspace.vercel.app/) · [Download the preview](https://github.com/goolen988/pt-admin/releases/download/v0.2.1-preview/pt-workspace-public-v0.2.1-preview.zip) · [All releases](https://github.com/goolen988/pt-admin/releases)
 
 ## Start in your AI app
 
 Paste this into a desktop AI session with local file access:
 
-> Help me set up PT Workspace. Read https://raw.githubusercontent.com/goolen988/pt-workspace-public/main/START.md and walk me through my first task.
+> Help me set up PT Admin. Read https://raw.githubusercontent.com/goolen988/pt-admin/main/START.md and walk me through my first task.
 
 Your agent checks the environment, asks where to keep your workspace, retrieves the package and guides setup. You do not need to write code or use a terminal. Downloading the package yourself is optional.
 

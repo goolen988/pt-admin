@@ -1,12 +1,12 @@
 {
-  "product": "PT Workspace",
+  "product": "PT Admin",
   "distribution_version": "0.2.1-preview",
   "runtime_version": "0.2.1",
   "channel": "preview",
   "published_at": "2026-09-27",
-  "repository": "goolen988/pt-workspace-public",
+  "repository": "goolen988/pt-admin",
   "asset": "pt-workspace-public-v0.2.1-preview.zip",
-  "url": "https://github.com/goolen988/pt-workspace-public/releases/download/v0.2.1-preview/pt-workspace-public-v0.2.1-preview.zip",
+  "url": "https://github.com/goolen988/pt-admin/releases/download/v0.2.1-preview/pt-workspace-public-v0.2.1-preview.zip",
   "sha256": "a7a9fec7e2ce62bb4c30d043f605d319545b65fc627c4a6f7e2b038216d931bc",
   "requires": {
     "python": ">=3.9",
